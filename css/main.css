@@ -12,6 +12,7 @@ header {
     margin-top: 0;
     padding-top: 21px;
     padding-bottom: 21px;
+    z-index: 3;
     background-color: #fff;
     text-align: center;
 }
@@ -21,6 +22,7 @@ nav {
     background-color: #fff;
     padding-top: 21px;
     padding-bottom: 21px;
+    z-index: 2;
     text-align: center;
     box-shadow: 0 10px 25px -11px rgba(0, 0, 0, 0.76);
 }
@@ -30,6 +32,7 @@ section {
     margin: 50px 15%;
     padding: 32px;
     width: 70%;
+    z-index: 1;
     background-color: #ffffffd0;
     border-radius: 30px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
@@ -40,6 +43,7 @@ footer {
     padding-top: 21px;
     padding-bottom: 21px;
     margin-bottom: 0;
+    z-index: 3;
     background-color: #fff;
     text-align: center;
 }
