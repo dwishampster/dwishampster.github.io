@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 32px;
     min-height: 100vh;
     background: #f0eeed url(/images/forestfriends.webp)
 }
@@ -10,35 +11,31 @@ body {
 header {
     flex: 0 0 auto;
     background-color: #fff;
-    font-family: Petit Formal Script;
-    font-size: 35px;
-    font-weight: 600;
-    padding: 30px 0;
-    word-break: break-word;
+    text-align: center;
 }
 
 nav {
     flex: 0 0 auto;
     background-color: #fff;
+    text-align: center;
     box-shadow: 0 10px 25px -11px rgba(0, 0, 0, 0.76);
 }
 
 section {
-    margin-top: 50px;
-    margin-bottom: 50px;
     flex: 1 0 auto;
-    background-color: #ffffffd0;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-    padding: 32px;
-    border-radius: 30px;
+    margin: 50px 15%;
     width: 70%;
+    background-color: #ffffffd0;
+    border-radius: 30px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
 }
 
 footer {
+    flex: 0 0 auto;
     padding-top: 21px;
     padding-bottom: 21px;
     background-color: #fff;
-    flex: 0 0 auto;
+    text-align: center;
 }
 
 nav ul, footer ul {
