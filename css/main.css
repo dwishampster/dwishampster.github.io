@@ -1,9 +1,9 @@
 body {
     margin: 0 auto;
-    width: 70%;
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
     background: #f0eeed url(/images/forestfriends.webp)
 }
 
@@ -13,7 +13,7 @@ header {
     font-family: Petit Formal Script;
     font-size: 35px;
     font-weight: 600;
-    margin-top: 30px;
+    padding: 30px 0;
     word-break: break-word;
 }
 
@@ -29,9 +29,9 @@ section {
     flex: 1 0 auto;
     background-color: #ffffffd0;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px;
     border-radius: 30px;
+    width: 70%;
 }
 
 footer {
