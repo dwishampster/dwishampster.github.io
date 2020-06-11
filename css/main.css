@@ -1,3 +1,23 @@
+@font-face {
+    font-family: Parisienne;
+    src: url(css/Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(css/Roboto-Black.ttf);
+    src: url(css/Roboto-BlackItalic.ttf);
+    src: url(css/Roboto-Bold.ttf);
+    src: url(css/Roboto-BoldItalic.ttf);
+    src: url(css/Roboto-Italic.ttf);
+    src: url(css/Roboto-Light.ttf);
+    src: url(css/Roboto-LightItalic.ttf);
+    src: url(css/Roboto-Medium.ttf);
+    src: url(css/Roboto-MediumItalic.ttf);
+    src: url(css/Roboto-Regular.ttf);
+    src: url(css/Roboto-Thin.ttf);
+    src: url(css/Roboto-ThinItalic.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -17,7 +37,7 @@ header {
     align-self: flex-start;
     width: 100%;
     margin-top: 0;
-    padding: 21px 0;
+    padding: 21px 0 0 0;
     z-index: 3;
     background-color: #fff;
     text-align: center;
