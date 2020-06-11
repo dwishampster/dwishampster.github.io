@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     min-height: 100vh;
     background: #f0eeed url(https://res.cloudinary.com/dh4osksz7/image/upload/v1591851229/forestfriends_c8udhm.jpg)
@@ -13,9 +14,9 @@ body {
 
 header {
     flex: 0 0 auto;
+    align-self: flex-start;
     margin-top: 0;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding: 21px 0;
     z-index: 3;
     background-color: #fff;
     text-align: center;
@@ -33,7 +34,8 @@ nav {
 
 section {
     flex: 1 0 auto;
-    margin: 50px 15%;
+    align-self: center;
+    margin: 50px 0;
     padding: 32px;
     width: 70%;
     z-index: 1;
@@ -44,6 +46,7 @@ section {
 
 footer {
     flex: 0 0 auto;
+    align-self: flex-end;
     padding-top: 21px;
     padding-bottom: 21px;
     margin-bottom: 0;
