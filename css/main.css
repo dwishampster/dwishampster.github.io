@@ -78,3 +78,10 @@ a:hover {
 footer {
     border-top: 1px solid #f0eeed;
 }
+
+.specialText {
+    font-family: 'Parisienne', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 6em;
+    line-height: 1;
+    text-align: center;
+}
