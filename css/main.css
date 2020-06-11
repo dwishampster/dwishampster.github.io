@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: #f0eeed url(/images/forestfriends.webp)
+    background: #f0eeed url(https://res.cloudinary.com/dh4osksz7/image/upload/v1591851229/forestfriends_c8udhm.jpg)
 }
 
 header {
