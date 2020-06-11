@@ -1,21 +1,21 @@
 @font-face {
     font-family: Parisienne;
-    src: url(css/Parisienne-Regular.ttf);
+    src: url(Parisienne-Regular.ttf);
 }
 @font-face {
     font-family: Roboto;
-    src: url(css/Roboto-Black.ttf);
-    src: url(css/Roboto-BlackItalic.ttf);
-    src: url(css/Roboto-Bold.ttf);
-    src: url(css/Roboto-BoldItalic.ttf);
-    src: url(css/Roboto-Italic.ttf);
-    src: url(css/Roboto-Light.ttf);
-    src: url(css/Roboto-LightItalic.ttf);
-    src: url(css/Roboto-Medium.ttf);
-    src: url(css/Roboto-MediumItalic.ttf);
-    src: url(css/Roboto-Regular.ttf);
-    src: url(css/Roboto-Thin.ttf);
-    src: url(css/Roboto-ThinItalic.ttf);
+    src: url(Roboto-Black.ttf);
+    src: url(Roboto-BlackItalic.ttf);
+    src: url(Roboto-Bold.ttf);
+    src: url(Roboto-BoldItalic.ttf);
+    src: url(Roboto-Italic.ttf);
+    src: url(Roboto-Light.ttf);
+    src: url(Roboto-LightItalic.ttf);
+    src: url(Roboto-Medium.ttf);
+    src: url(Roboto-MediumItalic.ttf);
+    src: url(Roboto-Regular.ttf);
+    src: url(Roboto-Thin.ttf);
+    src: url(Roboto-ThinItalic.ttf);
 }
 
 * {
