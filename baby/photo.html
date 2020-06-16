@@ -79,11 +79,15 @@ permalink: /baby/photo
         // Open the Modal
         function openModal() {
           document.getElementById("myModal").style.display = "block";
+          document.getElementById("myModal").style.zIndex = "5";
+          document.getElementById("main").style.zIndex = "5";
         }
         
         // Close the Modal
         function closeModal() {
           document.getElementById("myModal").style.display = "none";
+          document.getElementById("myModal").style.zIndex = "1";
+          document.getElementById("main").style.zIndex = "1";
         }
         
         var slideIndex = 1;
