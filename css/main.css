@@ -212,3 +212,34 @@ footer {
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  /* Larger than mobile screen */
+@media (min-width: 40.0rem) {
+  body {
+    font-size:2.0em;
+  }
+
+  img{
+    max-width:80%;
+  }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+  body {
+    font-size:2.5em;
+  }
+   img{
+    max-width:75%;
+  }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+  body {
+    font-size:3.0em;
+  }
+  img{
+   max-width:50%;
+ }
+}
