@@ -81,17 +81,12 @@ footer {
 }
 
 .specialHeader {
-  font-size: 5.6rem;
-  line-height: 1.1;
-
-}.specialFont {
-  font-family: 'Parisienne', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 4.6rem;
+  line-height: 1.2;
 }
 
-.specialText {
-    font-family: 'Parisienne', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    font-size: 4.5em;
-    line-height: 1;
+.specialFont {
+  font-family: 'Parisienne', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 
 .row > .column {
@@ -230,6 +225,11 @@ footer {
   img{
     max-width: 75%;
   }
+
+  .specialHeader {
+    font-size: 8.6rem;
+    line-height: 1.0;
+  }
 }
 
 /* Larger than tablet screen */
@@ -241,6 +241,11 @@ footer {
    img{
     max-width: 50%;
   }
+  
+.specialHeader {
+  font-size: 8.6rem;
+  line-height: 1.0;
+}
 }
 
 /* Larger than desktop screen */
@@ -252,4 +257,9 @@ footer {
   img{
    max-width: 35%;
  }
+ 
+.specialHeader {
+  font-size: 8.6rem;
+  line-height: 1.0;
+}
 }
