@@ -9,7 +9,7 @@ body {
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: rgb(237, 231, 246) url(https://res.cloudinary.com/dh4osksz7/image/upload/v1591851229/forestfriends_c8udhm.jpg)
+    background: rgba(237, 231, 246, 1) url(https://res.cloudinary.com/dh4osksz7/image/upload/v1591851229/forestfriends_c8udhm.jpg)
 }
 
 header {
@@ -19,14 +19,14 @@ header {
     margin-top: 0;
     padding: 21px 0 0 0;
     z-index: 3;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
 }
 
 nav {
     flex: 0 0 auto;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.75);
     padding-top: 21px;
     padding-bottom: 21px;
     z-index: 2;
@@ -41,7 +41,7 @@ section {
     padding: 32px;
     width: 70%;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.80);
+    background-color: rgba(255, 255, 255, 0.90);
     border-radius: 30px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
     text-align: center;
@@ -55,7 +55,7 @@ footer {
     padding-bottom: 21px;
     margin-bottom: 0;
     z-index: 3;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
 }
 
