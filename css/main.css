@@ -220,7 +220,7 @@ footer {
   }
 
   img{
-    max-width:80%;
+    max-width:75%;
   }
 }
 
@@ -230,7 +230,7 @@ footer {
     font-size:2.5em;
   }
    img{
-    max-width:75%;
+    max-width:50%;
   }
 }
 
@@ -240,6 +240,6 @@ footer {
     font-size:3.0em;
   }
   img{
-   max-width:50%;
+   max-width:35%;
  }
 }
