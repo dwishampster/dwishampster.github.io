@@ -19,14 +19,14 @@ header {
     margin-top: 0;
     padding: 21px 0 0 0;
     z-index: 3;
-    background-color: #ede7f6;
+    background-color: #c6e6ec;
     text-align: center;
 }
 
 nav {
     flex: 0 0 auto;
     width: 100%;
-    background-color: #ede7f6;
+    background-color: #c6e6ec;
     padding-top: 21px;
     padding-bottom: 21px;
     z-index: 2;
@@ -41,7 +41,7 @@ section {
     padding: 32px;
     width: 70%;
     z-index: 1;
-    background-color: #ede7f6d0;
+    background-color: #c6e6ecd0;
     border-radius: 30px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
     text-align: center;
@@ -55,7 +55,7 @@ footer {
     padding-bottom: 21px;
     margin-bottom: 0;
     z-index: 3;
-    background-color: #ede7f6;
+    background-color: #c6e6ec;
     text-align: center;
 }
 
