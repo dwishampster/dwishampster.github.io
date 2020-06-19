@@ -70,6 +70,10 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+a {
+  color: #606c76;
+}
+
 a:hover {
     text-decoration: underline;
     text-decoration-color: #fff;
