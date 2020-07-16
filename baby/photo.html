@@ -9,6 +9,12 @@ permalink: /baby/photo
         <!-- Images used to open the lightbox -->
         <div class="row">
                 <div class="column">
+                        <img src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/3D_Baby_1_dkn3ed.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                        <img src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/3D_Baby_2_ot8wsi.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
                         <img src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/itsaboy_icqcwu.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
                 </div>
                 <div class="column">
@@ -20,105 +26,104 @@ permalink: /baby/photo
                 <div class="column">
                         <img src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/Sonogram_1_dsfvtw.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
                 </div>
-      </div>
-      
-      <!-- The Modal/Lightbox -->
-      <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-      
-          <div class="mySlides">
-            <div class="numbertext">1 / 4</div>
-            <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/itsaboy_icqcwu.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlides">
-            <div class="numbertext">2 / 4</div>
-            <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/tinyexplorer_iczuzn.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlides">
-            <div class="numbertext">3 / 4</div>
-            <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/Sonogram_2_puss2v.jpg" style="width:100%">
-          </div>
-      
-          <div class="mySlides">
-            <div class="numbertext">4 / 4</div>
-            <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/Sonogram_1_dsfvtw.jpg" style="width:100%">
-          </div>
-      
-          <!-- Next/previous controls -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      
-          <!-- Caption text -->
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-      
-          <!-- Thumbnail image controls -->
-          <div class="column">
-            <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/itsaboy_icqcwu.jpg" onclick="currentSlide(1)" alt="It's a Boy!">
-          </div>
-      
-          <div class="column">
-            <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/tinyexplorer_iczuzn.jpg" onclick="currentSlide(2)" alt="We are pregnant!">
-          </div>
-      
-          <div class="column">
-            <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/Sonogram_2_puss2v.jpg" onclick="currentSlide(3)" alt="It's a Human!">
-          </div>
-      
-          <div class="column">
-            <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/Sonogram_1_dsfvtw.jpg" onclick="currentSlide(4)" alt="Something is coming!">
-          </div>
         </div>
-      </div>
-      <img class="imgRe" src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592539920/Clementine_woodlandhipsters__rabbit_ohynj1.png" alt="Hipster Rabbit" integrity="sha384-NwhL8TIT80gLVx97zxA9h1Pt3SXqxKOmWffKr1yxxum+bZwC6vGFZFRAwGcdQgMw" crossorigin="anonymous" />
-      <!-- Script for Gallery -->
-      <script>
-        // Open the Modal
-        function openModal() {
-          document.getElementById("myModal").style.display = "block";
-          document.getElementById("myModal").style.zIndex = "5";
-          document.getElementById("main").style.zIndex = "5";
-        }
-        
-        // Close the Modal
-        function closeModal() {
-          document.getElementById("myModal").style.display = "none";
-          document.getElementById("myModal").style.zIndex = "1";
-          document.getElementById("main").style.zIndex = "1";
-        }
-        
-        var slideIndex = 1;
-        showSlides(slideIndex);
-        
-        // Next/previous controls
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        // Thumbnail image controls
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          var captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
-        }
+    
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+                        <div class="mySlides">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/3D_Baby_1_dkn3ed.jpg" style="width:100%" />
+                        </div>      
+                        <div class="mySlides">
+                                <div class="numbertext">2 / 6</div>
+                                <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/3D_Baby_2_ot8wsi.jpg" style="width:100%" />
+                        </div>  
+                        <div class="mySlides">
+                                <div class="numbertext">3 / 6</div>
+                                <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/itsaboy_icqcwu.jpg" style="width:100%" />
+                        </div>      
+                        <div class="mySlides">
+                                <div class="numbertext">4 / 6</div>
+                                <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/tinyexplorer_iczuzn.jpg" style="width:100%" />
+                        </div>   
+                        <div class="mySlides">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/Sonogram_2_puss2v.jpg" style="width:100%" />
+                        </div>
+                        <div class="mySlides">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592284583/Sonogram_1_dsfvtw.jpg" style="width:100%">
+                        </div>
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                                <p id="caption"></p>
+                        </div>
+                        <!-- Thumbnail image controls -->
+                        <div class="column">
+                                <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/3D_Baby_1_dkn3ed.jpg" onclick="currentSlide(1)" alt="It's a Boy!">
+                        </div>
+                        <div class="column">
+                                <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/3D_Baby_2_ot8wsi.jpg" onclick="currentSlide(2)" alt="We are pregnant!">
+                        </div>
+                        <div class="column">
+                                <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/itsaboy_icqcwu.jpg" onclick="currentSlide(1)" alt="It's a Boy!">
+                        </div>
+                        <div class="column">
+                                <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/tinyexplorer_iczuzn.jpg" onclick="currentSlide(2)" alt="We are pregnant!">
+                        </div>
+                        <div class="column">
+                                <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/Sonogram_2_puss2v.jpg" onclick="currentSlide(3)" alt="It's a Human!">
+                        </div>
+                        <div class="column">
+                                <img class="demo" src="https://res.cloudinary.com/dh4osksz7/image/upload/c_thumb,w_200,g_face/v1592284583/Sonogram_1_dsfvtw.jpg" onclick="currentSlide(4)" alt="Something is coming!">
+                        </div>
+                </div>
+        </div>
+        <img class="imgRe" src="https://res.cloudinary.com/dh4osksz7/image/upload/v1592539920/Clementine_woodlandhipsters__rabbit_ohynj1.png" alt="Hipster Rabbit" integrity="sha384-NwhL8TIT80gLVx97zxA9h1Pt3SXqxKOmWffKr1yxxum+bZwC6vGFZFRAwGcdQgMw" crossorigin="anonymous" />
+        <!-- Script for Gallery -->
+        <script>
+                // Open the Modal
+                function openModal() {
+                        document.getElementById("myModal").style.display = "block";
+                        document.getElementById("myModal").style.zIndex = "5";
+                        document.getElementById("main").style.zIndex = "5";
+                }
+                // Close the Modal
+                function closeModal() {
+                        document.getElementById("myModal").style.display = "none";
+                        document.getElementById("myModal").style.zIndex = "1";
+                        document.getElementById("main").style.zIndex = "1";
+                }
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                // Next/previous controls
+                function plusSlides(n) {
+                        showSlides(slideIndex += n);
+                }
+                // Thumbnail image controls
+                function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                }
+                function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("demo");
+                        var captionText = document.getElementById("caption");
+                        if (n > slides.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = slides.length}
+                        for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                        dots[slideIndex-1].className += " active";
+                        captionText.innerHTML = dots[slideIndex-1].alt;
+                }
         </script>
